@@ -1,4 +1,5 @@
-import { Project, Skill } from '@/app/types/index';
+import { Project, Skill, Experience } from '@/app/types/index';
+
 export const projects: Project[] = [
     {
       title: "E-Commerce Platform",
@@ -33,24 +34,24 @@ export const projects: Project[] = [
     { name: "Docker", icon: "container", level: 85 }
   ];
   
-//   export const experiences: Experience[] = [
-//     {
-//       title: "Senior Software Engineer",
-//       company: "Tech Corp",
-//       period: "2020 - Present",
-//       description: "Leading development of enterprise applications using React and Node.js"
-//     },
-//     {
-//       title: "Full Stack Developer",
-//       company: "StartupX",
-//       period: "2018 - 2020",
-//       description: "Built and maintained multiple web applications using modern technologies"
-//     },
-//     {
-//       title: "Software Developer",
-//       company: "Digital Solutions",
-//       period: "2016 - 2018",
-//       description: "Developed and optimized web applications for various clients"
-//     }
-//   ];
+  export const experiences: Experience[] = [
+    {
+      title: "Senior Software Engineer",
+      company: "Tech Corp",
+      period: "2020 - Present",
+      description: "Leading development of enterprise applications using React and Node.js"
+    },
+    {
+      title: "Full Stack Developer",
+      company: "StartupX",
+      period: "2018 - 2020",
+      description: "Built and maintained multiple web applications using modern technologies"
+    },
+    {
+      title: "Software Developer",
+      company: "Digital Solutions",
+      period: "2016 - 2018",
+      description: "Developed and optimized web applications for various clients"
+    }
+  ];
   
