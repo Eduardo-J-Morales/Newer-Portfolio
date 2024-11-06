@@ -6,3 +6,9 @@ export interface Project {
     link?: string;
     github?: string
 }
+
+export interface Skill {
+    name: string;
+    icon: string;
+    LEVEL: number;
+}
