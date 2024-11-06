@@ -10,5 +10,12 @@ export interface Project {
 export interface Skill {
     name: string;
     icon: string;
-    LEVEL: number;
+    level: number;
+}
+
+export interface Experience {
+    title: string;
+    company: string;
+    period: string;
+    description: string;
 }
