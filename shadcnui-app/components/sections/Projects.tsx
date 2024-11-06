@@ -9,7 +9,7 @@ export default function Projects() {
         <section className="py-20 px-4" id="projects">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-12">Feature Projects</h2>
-                <div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                     {projects.map((project, index) => (
                         <Card key={index} className="overflow-hidden">
 
