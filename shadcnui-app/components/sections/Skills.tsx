@@ -13,8 +13,9 @@ const iconMap = {
 
 export default function Skills() {
     return (
-        <section className="">
-            
+        <section className="py-20 bg-secondary/50" id="skills">
+            <div className="container mx-auto px-4"></div>
+
         </section>
     )
 }
