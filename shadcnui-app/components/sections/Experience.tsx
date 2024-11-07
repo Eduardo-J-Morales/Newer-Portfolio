@@ -3,6 +3,13 @@ import { experiences } from '@/app/data/content'
 
 export default function Experience() {
     return(
-    <section></section>
+    <section className='py-20'>
+        <div>
+            <h2></h2>
+            <div>
+                {}
+            </div>
+        </div>
+    </section>
     )
 }
